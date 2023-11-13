@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Card from "../Components/Card/Card";
 
 
 const Todo = () => {
@@ -15,12 +16,11 @@ const Todo = () => {
         }
     }, [])
 
-
     return (
         <div>
-
-            <h1>this is todo</h1>
-
+           {
+            todoData.map((card, index)=> <Card key={index} card={card}></Card>)
+           }
         </div>
     );
 };
