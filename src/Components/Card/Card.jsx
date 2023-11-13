@@ -13,8 +13,8 @@ const Card = ({card}) => {
             </div>
            <section className="content-section">
            <div className="card-content">
-            <h2>Title: </h2>
-            <h2>{title}</h2>
+            <h3>Title: </h3>
+            <h3>{title}</h3>
             </div>
 
             <div className="complete">

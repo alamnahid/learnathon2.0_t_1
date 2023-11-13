@@ -1,9 +1,9 @@
 import "./Loading.css"
 const Loading = () => {
     return (
-        <div>
-            <h1>loading</h1>
-            
+        <div className="loader-container">
+            <div className="loader">
+        </div>
         </div>
     );
 };

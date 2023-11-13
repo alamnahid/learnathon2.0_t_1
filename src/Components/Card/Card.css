@@ -1,12 +1,13 @@
 .card{
     width: 60vw;
     height: fit-content;
-    background-color: #85bcadc2;
+    background-color: #00ff6a1e;
     padding: 10px 20px;
     margin: auto;
     color: black;
     font-weight: 800;
     border-radius: 20px;
+    overflow: hidden;
     
 }
 
@@ -20,3 +21,12 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .card {
+      width: 80vw;
+    }
+    .content-section{
+        flex-direction: column;
+    }
+  }
